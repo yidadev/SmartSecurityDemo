@@ -1,0 +1,8 @@
+"action_back" = "返信";
+"cancel" = "取り消し";
+"load_failed_check_network" = "ロードタイムアウト、ネットワークを確認してください";
+"loading" = "ロード中...";
+"ty_add_new_contact" = "電話連絡先に追加";
+"ty_copy" = "コピー";
+"ty_make_call" = "電話する";
+"webview_reload" = "リロード";

@@ -1,0 +1,1 @@
+../../../TYUIKit/TYUIKit/Headers/UILabel+TYFactory.h

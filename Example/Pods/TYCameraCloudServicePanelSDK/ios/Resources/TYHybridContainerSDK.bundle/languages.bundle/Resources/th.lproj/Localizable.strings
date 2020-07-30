@@ -1,0 +1,8 @@
+"action_back" = "กลับ";
+"cancel" = "ยกเลิก";
+"load_failed_check_network" = "โหลดหมดเวลาโปรดตรวจสอบเครือข่าย";
+"loading" = "กำลังโหลด...";
+"ty_add_new_contact" = "เพิ่มไปยังข้อมูลผู้ติดต่อบนโทรศัพท์";
+"ty_copy" = "คัดลอก";
+"ty_make_call" = "โทร";
+"webview_reload" = "โหลด";

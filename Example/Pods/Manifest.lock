@@ -1,0 +1,235 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaAsyncSocket (7.6.4)
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
+  - OpenSSL-Universal (1.0.2.17)
+  - Reachability (3.2)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SVProgressHUD (2.2.5)
+  - TuyaCameraSDK (3.17.3)
+  - TuyaSmartActivatorKit (3.17.6):
+    - TuyaSmartDeviceKit
+  - TuyaSmartBaseKit (3.17.6):
+    - TuyaSmartUtil
+    - YYModel
+  - TuyaSmartBLEKit (3.17.8):
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TYBluetooth
+  - TuyaSmartBLEMeshKit (3.17.7):
+    - OpenSSL-Universal (= 1.0.2.17)
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartBLEKit
+    - TuyaSmartDeviceKit
+    - TYBluetooth
+  - TuyaSmartCameraBase (4.17.0)
+  - TuyaSmartCameraKit (4.17.1):
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartCameraM
+    - TuyaSmartDeviceKit
+  - TuyaSmartCameraM (4.17.3):
+    - TuyaCameraSDK
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+    - TuyaSmartDeviceKit
+  - TuyaSmartCameraT (4.17.6):
+    - TuyaSmartBaseKit
+    - TuyaSmartCameraBase
+  - TuyaSmartDeviceKit (3.17.11):
+    - TuyaSmartBaseKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSocketChannelKit
+  - TuyaSmartFeedbackKit (3.15.0):
+    - TuyaSmartBaseKit
+  - TuyaSmartHomeKit (3.17.6):
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartFeedbackKit
+    - TuyaSmartMessageKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSceneKit
+    - TuyaSmartSocketChannelKit
+    - TuyaSmartTimerKit
+  - TuyaSmartLogger (0.1.0):
+    - CocoaLumberjack
+  - TuyaSmartMessageKit (3.16.1):
+    - TuyaSmartBaseKit
+  - TuyaSmartMQTTChannelKit (3.17.3):
+    - MQTTClient (= 0.15.2)
+    - TuyaSmartBaseKit
+  - TuyaSmartSceneKit (3.17.10):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+  - TuyaSmartSecurityBaseKit (2.1.1):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSocketChannelKit
+    - TuyaSmartUtil
+    - YYModel
+  - TuyaSmartSecurityBizAopKit (2.1.1):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartUtil
+  - TuyaSmartSecurityServiceKit (2.1.0):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TuyaSmartMessageKit
+    - TuyaSmartSceneKit
+    - TuyaSmartTimerKit
+    - TuyaSmartUtil
+  - TuyaSmartSocketChannelKit (3.17.6):
+    - CocoaAsyncSocket
+    - TuyaSmartBaseKit
+  - TuyaSmartTimerKit (3.13.0):
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+  - TuyaSmartUtil (3.17.6)
+  - TYBluetooth (3.17.0)
+  - TYCameraCloudServicePanelSDK (0.2.1):
+    - Masonry
+    - MBProgressHUD (~> 0.9.2)
+    - Reachability
+    - SVProgressHUD
+    - TuyaSmartBaseKit
+    - TuyaSmartDeviceKit
+    - TYFoundationKit
+    - TYUIKit
+  - TYFoundationKit (1.10.3):
+    - Reachability
+  - TYUIKit (1.1.1):
+    - Masonry
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - BlocksKit
+  - Masonry
+  - MBProgressHUD (~> 0.9.2)
+  - Reachability
+  - SDWebImage
+  - TuyaSmartCameraKit (~> 4.17.1)
+  - TuyaSmartCameraT (~> 4.17.6)
+  - TuyaSmartHomeKit (~> 3.17.0)
+  - TuyaSmartLogger
+  - TuyaSmartSecurityBaseKit (~> 2.1.0)
+  - TuyaSmartSecurityBizAopKit (~> 2.1.0)
+  - TuyaSmartSecurityServiceKit (~> 2.1.0)
+  - TYCameraCloudServicePanelSDK (~> 0.2.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BlocksKit
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - Masonry
+    - MBProgressHUD
+    - MQTTClient
+    - OpenSSL-Universal
+    - Reachability
+    - SDWebImage
+    - SVProgressHUD
+    - TuyaCameraSDK
+    - TuyaSmartActivatorKit
+    - TuyaSmartBaseKit
+    - TuyaSmartBLEKit
+    - TuyaSmartBLEMeshKit
+    - TuyaSmartCameraBase
+    - TuyaSmartCameraKit
+    - TuyaSmartCameraM
+    - TuyaSmartCameraT
+    - TuyaSmartDeviceKit
+    - TuyaSmartFeedbackKit
+    - TuyaSmartHomeKit
+    - TuyaSmartLogger
+    - TuyaSmartMessageKit
+    - TuyaSmartMQTTChannelKit
+    - TuyaSmartSceneKit
+    - TuyaSmartSecurityBaseKit
+    - TuyaSmartSecurityBizAopKit
+    - TuyaSmartSecurityServiceKit
+    - TuyaSmartSocketChannelKit
+    - TuyaSmartTimerKit
+    - TuyaSmartUtil
+    - TYBluetooth
+    - YYModel
+  https://github.com/TuyaInc/TYPublicSpecs.git:
+    - TYCameraCloudServicePanelSDK
+    - TYFoundationKit
+    - TYUIKit
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
+  OpenSSL-Universal: ff04c2e6befc3f1247ae039e60c93f76345b3b5a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TuyaCameraSDK: 04056efc44f06d5eabdf693989e6d7ba7c84c189
+  TuyaSmartActivatorKit: a3a648c209046bf2fb6efb362fb82c0b6c075638
+  TuyaSmartBaseKit: 7450992991c7ccff63d28b2994d9d08202b63e3e
+  TuyaSmartBLEKit: 6fd06fa498018ff176c4519a121657c24405012c
+  TuyaSmartBLEMeshKit: dba1f47883471c8371a44ac58325e78b9af227b1
+  TuyaSmartCameraBase: eeed37caf4a6489a507f8b2f0c4510d210a536ec
+  TuyaSmartCameraKit: f7609fd0ae5cebf21b823fbd6ca21812ac347a1d
+  TuyaSmartCameraM: e98946f83e1f6249f3f233c6499330768f0123b3
+  TuyaSmartCameraT: 04884cbd29989bc233177d3d8ed3db7f03323787
+  TuyaSmartDeviceKit: 7649464a184017f5f35450c80c652bc83cf77a17
+  TuyaSmartFeedbackKit: 88101dccbeeb1a17a93f2ee72bd9ae84d9ce7eb4
+  TuyaSmartHomeKit: 8485c877647fe12ecafbfca7a70f27c95daa715b
+  TuyaSmartLogger: 95836e0328ed071b929af26cbb058d4921f9f6fa
+  TuyaSmartMessageKit: fef3924fdaaa14e9583e318eb489475f79543b5a
+  TuyaSmartMQTTChannelKit: 40c98e2123e4c855c62fc6827052b6c63592058c
+  TuyaSmartSceneKit: 15c09cca13241b09a09d3334bd7c25c2d82ea0b8
+  TuyaSmartSecurityBaseKit: cb8c8ef4f0f247b56b1905c1eb5d8167ca315992
+  TuyaSmartSecurityBizAopKit: cbdd04884a0dd17d8abc9932f9a2e4100efe5e56
+  TuyaSmartSecurityServiceKit: dd42e9113a35a3eefce8286b4bbe6e4a54044b25
+  TuyaSmartSocketChannelKit: 49ae6cf90449fc8c9fb1e1735abd8f9e94314fe8
+  TuyaSmartTimerKit: 3296a4e8ab503f6f6e84849591cfc3492c28a5ed
+  TuyaSmartUtil: f29791576de8ab7f6cd6c60f0bb57985924a36eb
+  TYBluetooth: 0741669a99673b1de97365fb7584eaee75db2bdd
+  TYCameraCloudServicePanelSDK: 719556b719f8da81e668a4932ad7ae03ed0bcee2
+  TYFoundationKit: 2c98f35a8392b71b6eaf17ae36345d590d4105e7
+  TYUIKit: 6bfe155fc33a484109386ada5e08525316cdd8bd
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 905fe39750d2688afcc8800a8b15f96ea76fd82c
+
+COCOAPODS: 1.8.4

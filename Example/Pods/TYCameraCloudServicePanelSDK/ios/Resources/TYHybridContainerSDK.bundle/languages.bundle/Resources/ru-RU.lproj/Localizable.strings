@@ -1,0 +1,8 @@
+"action_back" = "Назад";
+"cancel" = "Отмена";
+"load_failed_check_network" = "Тайм-аут загрузки, пожалуйста, проверьте сеть";
+"loading" = "Загрузка…";
+"ty_add_new_contact" = "Добавить в контакты";
+"ty_copy" = "Копировать";
+"ty_make_call" = "Позвонить";
+"webview_reload" = "перезагружать";

@@ -1,0 +1,6 @@
+framework module TuyaSmartSecurityBaseKit {
+  umbrella header "TuyaSmartSecurityBaseKit.h"
+
+  export *
+  module * { export * }
+}

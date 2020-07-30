@@ -1,0 +1,1 @@
+../../../TYFoundationKit/TYFoundationKit/ios/Headers/TYLocalizedCollation.h

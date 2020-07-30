@@ -1,0 +1,8 @@
+"action_back" = "이전";
+"cancel" = "취소";
+"load_failed_check_network" = "로드 타임 아웃, 네트워크를 확인하십시오";
+"loading" = "로딩 중";
+"ty_add_new_contact" = "연락처에 추가";
+"ty_copy" = "복사";
+"ty_make_call" = "전화 걸기";
+"webview_reload" = "다시로드";

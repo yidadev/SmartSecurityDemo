@@ -1,0 +1,6 @@
+framework module TYCameraCloudServicePanelSDK {
+  umbrella header "TYCameraCloudServicePanelSDK.h"
+
+  export *
+  module * { export * }
+}

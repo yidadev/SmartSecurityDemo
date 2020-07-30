@@ -1,0 +1,1 @@
+../../../TYFoundationKit/TYFoundationKit/common/Headers/NSData+TYStringEncoding.h

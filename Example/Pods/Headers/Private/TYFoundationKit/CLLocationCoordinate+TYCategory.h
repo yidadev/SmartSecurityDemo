@@ -1,0 +1,1 @@
+../../../TYFoundationKit/TYFoundationKit/common/Headers/CLLocationCoordinate+TYCategory.h
